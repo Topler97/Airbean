@@ -1,0 +1,49 @@
+.menupage-container {
+    background-color: #2F2926;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    height: 80vh;
+    width: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+ul {
+    color: white;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 38.4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    margin: 1rem;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+
+
+.horizontal-line {
+    width: 48px;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+}

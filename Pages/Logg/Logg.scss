@@ -1,0 +1,136 @@
+.profilepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2F2926;
+}
+
+.profilepicture-container {
+    width: 5.875rem;
+    height: 5.875rem; 
+    display: flex;
+    justify-content: center; 
+    padding: 0; 
+    background-image: url('../../assets/Profile/Profile.svg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 12px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.profilepage-header {
+    position: relative;
+    width: 100%;
+    height: 10rem; 
+    background-image: url('../../assets/CoffeMenu/header.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.profilepage-container p {
+    color: #FFFFFFCC;
+}
+
+
+
+.orderhistory-container {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin-top: 3rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderhistory-container h3 {
+    text-align: left;
+}
+
+
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.order-left, .order-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.order-right {
+    align-items: flex-end;
+}
+
+
+.date, .price {
+    float: none; 
+    clear: none;
+}
+
+.date {
+    font-size: 0.875rem;
+    color: #FFFFFFB2;
+}
+
+.total {
+    font-size: 0.75rem;
+    color: #FFFFFF80;
+    line-height: 14.4px;
+}
+
+
+.price {
+    font-size: 0.75rem;
+    color: #FFFFFF80;
+    line-height: 14.4px;
+}
+
+
+.order-item span, .order-summary span {
+    display: block;
+}
+
+
+.date, .price, .total-spent {
+    float: right;
+    clear: right;
+}
+
+
+.order-detail {
+    margin-bottom: 20px; 
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin-bottom: 20px; 
+}
+
+.order-summary {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+
+.order-item:not(:last-child) {
+    border-bottom: 3px solid #ccc; /* Ersätt #ccc med den färg som bäst matchar din design */
+    padding-bottom: 20px; /* Ger utrymme under innehållet, justera efter behov */
+    margin-bottom: 20px; /* Skapar ytterligare utrymme under strecket */
+}

@@ -1,0 +1,28 @@
+.navigate-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000; /* Se till att knappen ligger över andra element */
+  width: 3rem; /* Storlek på knappen */
+  height: 2.5rem; /* Höjd på knappen */
+  padding: 0; /* Justering */
+  background-color: transparent; /* Ingen bakgrundsfärg */
+  border: none; /* Ingen ram */
+  cursor: pointer; /* Pekare vid hover */
+  display: flex; /* Flexbox för att centrera span-elementen */
+  flex-direction: column; /* Barnen staplas vertikalt */
+  justify-content: center; /* Centrerar barnen vertikalt */
+  gap: 5px; /* Mellanrum mellan strecken */
+  margin-left: 1rem;
+}
+
+.navigate-button span {
+  display: block;
+  width: 100%; /* Full bredd */
+  height: 2px; /* Höjd på strecken */
+  background-color: #FFFFFF; /* Färg på strecken */
+}
+
+.navigate-button:hover {
+  background-color: transparent; /* Ingen bakgrundsfärg vid hover */
+}

@@ -1,0 +1,51 @@
+.statuspage-container {
+  background-color: #E5674E;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-between; 
+  padding: 20px; 
+  height: 80vh;
+  width: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#ordernumbertext {
+  font-size: 1rem;
+  font-weight: 700px;
+  line-height: 19.2px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+
+}
+
+.droneimage-container {
+  width: 15rem;
+  height: 15rem; 
+  display: flex;
+  justify-content: center; 
+  padding: 0; 
+  background-image: url(../../src/assets/Status/Group5.svg);
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.statuspage-container h1 {
+  color: white;
+  text-align: center;
+}
+
+.statuspage-container button {
+  background-color: white;
+}
+
+.reusable-button h3 {
+  color: #2F2926;
+}

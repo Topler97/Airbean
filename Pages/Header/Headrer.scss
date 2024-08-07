@@ -1,0 +1,11 @@
+@import '../../index.scss';
+@import '../../sass/mixins';
+@import '../../sass/variables';
+
+header {
+    display: flex;
+    align-items: flex-start; // Linjerar items till toppen av containern
+    justify-content: flex-start; // Linjerar items till vänster av containern
+    width: 100%;
+    padding: 1rem; // Lägger till lite utrymme runt innehållet
+  }

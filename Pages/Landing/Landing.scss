@@ -1,0 +1,52 @@
+@import "../../src/index.scss";
+@import "../../src/sass/varibles";
+@import "../../src/sass/mixins";
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Centrerar innehållet horisontellt
+    padding: 20px;
+    height: 100vh; // Använder hela skärmhöjden
+    width: 50vw; // Använder hela skärmbredden
+    background-image: url("../../src/assets/Landing/landingpage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; // Ser till att texten är centrerad
+
+    h1 {
+        margin-top: 7rem;
+        color: #fff; // Exempelfärg, anpassa efter din design
+    }
+
+    p {
+        margin-bottom: 40px;
+        color: #fff; // Exempelfärg, anpassa efter din design
+    }
+
+    button {
+        background-color:#2F2926;
+        font-family: $h3-primary-font;
+        color: $h3-primary-color;
+        font-size: 1.5rem;
+        line-height: 28.8px;
+        text-align: center;
+        border-radius: 2rem;
+        border: 0px;
+        width: 15.5rem;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        align-self: center;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken(#007bff, 10%);
+        }
+    }
+}
+
+
+
+

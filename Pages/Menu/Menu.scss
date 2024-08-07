@@ -1,0 +1,138 @@
+.kaffe-button {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    background-color: #2F2926;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.coffemenupage-container {
+    position: relative;
+    background-color: #F3E4E1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 0;
+    height: 90vh;
+    width: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.coffemenupage-header {
+    width: 100%;
+    height: 15%; 
+    background-image: url("../../src/assets/Menu/header.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+
+
+.coffemenupage-container h1 {
+    margin-top: 2rem;
+}
+
+
+
+.bryggkaffe-list {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 0;
+}
+
+.kaffe-container {
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+}
+
+
+.kaffe-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+
+.kaffe-info {
+    display: flex;
+    align-items: center;
+}
+
+.kaffe-description {
+    margin: 0;
+    color: grey;
+}
+
+.kaffe-price {
+    color: black;
+}
+
+
+.kaffe-title {
+    position: relative;
+    display: inline-block; /* Gör att ::after följer direkt efter texten */
+    margin-right: 0.5rem; /* Lägg till lite utrymme mellan text och punkter */
+}
+
+
+.kaffe-details {
+    display: flex;
+    flex-direction: column; /* Säkerställer att titel och beskrivning staplas vertikalt */
+    align-items: flex-start; /* Justerar innehållet till vänster */
+    margin-right: 3rem;
+}
+
+
+
+
+
+.coffemenu-footer {
+    width: 100%; /* Säkerställer att footern sträcker sig över hela bredden */
+    height: 15%; /* Anpassa storleken enligt önskemål */
+    background-image: url('../../assets/CoffeMenu/footer.png');
+    background-size: cover; /* Ser till att bilden täcker hela footern */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: auto;
+}
+
+
+
+
+.cart-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0.5rem;
+    font-size: 0; /* Tar bort textstorleken för att förhindra att text visas */
+    color: #FFFFFF;
+    background-color: #2F2926;
+    border: none;
+    border-radius: 50%; /* Gör knappen helt rund */
+    cursor: pointer;
+    width: 3rem; /* Ställer in en fast bredd */
+    height: 3rem; /* Ställer in en fast höjd */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cart-button:hover {
+    background-color: #3e342f;
+}

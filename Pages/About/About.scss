@@ -1,0 +1,79 @@
+.aboutpage-container {
+    position: relative;
+    background-color: #F3E4E1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 0;
+    padding-bottom: 0; 
+    height: 110vh;
+    width: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.aboutpage-header {
+    width: 100%;
+    height: 20%;
+    background-image: url('../../assets/About/header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 90%; 
+
+}
+
+.text-container p {
+    margin: 2rem 0;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 19.2px;
+    
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+
+
+.image-container {
+    width: 20rem;
+    height: 20rem; 
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0; 
+    background-image: url('../../assets/About/Owner.png');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+.aboutpage-footer {
+    width: 100%;
+    height: 15%;
+    background-image: url('../../assets/About/footer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: auto;
+}

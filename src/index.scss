@@ -1,0 +1,107 @@
+@import "../src/sass/mixins";
+@import "../src/sass/varibles";
+
+body {
+    @include flex-center;
+    margin: 1rem;
+    padding: 0;
+    font-family: $text-font;
+}
+
+
+h1 {
+    color: $h1-primary-color;
+    font-family: $h1-primary-font;
+    font-size: 3rem;
+    line-height: 50px;
+    color: #2F2926;
+    padding: 0;
+    margin: 0;
+}
+
+
+h2 {
+    color: $h2-primary-color;
+    font-family: $h2-primary-font;
+    font-size: 2rem;
+    font-weight: 700px;
+    line-height: 40px;
+    color: #2F2926;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    color: $h3-primary-color;
+    font-family: $h3-primary-font;
+    font-size: 1.5rem;
+    line-height: 28.8px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    color: #FFFFFFB2;
+    font-family: $h3-primary-font;
+    font-size: 0.875rem;
+    
+}
+
+
+p {
+    font-family: $text-font;
+    font-size: 0.8rem;
+    line-height: 20px;
+    color: #2F2926;
+}
+
+.reusable-button {
+    background-color:#2F2926;
+    font-family: $h3-primary-font;
+    color: $h3-primary-color;
+    font-size: 1.5rem;
+    line-height: 28.8px;
+    text-align: center;
+    border-radius: 2rem;
+    border: 0px;
+    width: 15.5rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+
+
+// Responsivitet för skärmar mindre än 768px
+@media (max-width: 768px) {
+    body {
+        font-size: 0.8rem; // Mindre text på små skärmar
+    }
+
+    h1 {
+        font-size: 2.5rem; // Mindre rubriker på små skärmar
+    }
+
+    .aboutpage-container, .coffemenupage-container, .statuspage-container, .profilepage-container {
+        flex-direction: column;
+        width: 100vh; // Anpassa bredden till viewporten
+        height: auto; // Gör höjden automatisk
+    }
+
+    .content-container, .kaffe-container, .order-history-container {
+        flex-direction: column;
+        align-items: center; // Centrera innehållet
+    }
+
+    .image-container, .droneimage-container {
+        width: 100%; // Använd hela bredden för bilder
+        height: auto; // Gör höjden automatisk
+        background-size: cover; // Se till att bilden täcker containern
+    }
+
+    .cart, .createprofile-container {
+        width: 95%; // Använd nästan hela bredden
+        max-width: none; // Ta bort max-bredd
+    }
+}
