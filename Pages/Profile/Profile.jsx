@@ -1,6 +1,8 @@
 import '../Profile/Profile.scss';
 import useStore from '../Store/Store';
 import NavigateButton from '../NavigateButton/NavigateButton.jsx';
+import profilepic from "../../src/assets/ProfilePic/profilepic.svg";
+
 
 
 function Profile() {
@@ -22,9 +24,11 @@ function Profile() {
             <header className='profilepage-header'>
                 <NavigateButton to="/navet" buttonText="Navet"/>
             </header>
-            <div className='profilepicture-container'></div>
+            
+            <img src={profilepic} alt="Show profile" />
             <h3>{user.fullName}</h3>
             <p>{user.email}</p>
+        
 
 
 

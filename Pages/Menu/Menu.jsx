@@ -2,9 +2,8 @@ import "../Menu/Menu.scss";
 import NavigateButton from "../NavigateButton/NavigateButton.jsx";
 import useStore from "../Store/Store.jsx";
 import Cart from "../Cart/cart.jsx";
-
 import bag from "../../src/assets/CartButton/bag.png";
-import React from 'react';
+
 
 
 function Menu() {

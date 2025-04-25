@@ -7,8 +7,10 @@
     align-items: center; 
     padding: 0;
     padding-bottom: 0; 
-    height: 110vh;
-    width: 50vh;
+    min-height: 90vh;
+    width: 100%;
+    max-width: 600px; /* Begränsar bredden på större skärmar */
+    margin: 0 auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
